@@ -27,7 +27,9 @@ const _DATA: WorkItemProps[] = [
 
 export const WorkExp = () => (
   <div id='work' className='max-w-[1040px] m-auto md:pl-20 p-4 py-16'>
-    <h1 className='text-4xl font-bold text-center text-[#001b5e]'>Work Experience</h1>
+    <h1 className='text-4xl mb-10 font-bold text-center text-[#001b5e]'>
+      Work Experience
+    </h1>
     {_DATA.map((item, id) => (
       <WorkItem
         key={id}
