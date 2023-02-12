@@ -1,4 +1,4 @@
-import { SideNav, Main, WorkExp, Offers } from './sceens';
+import { SideNav, Main, WorkExp, Offers, Contact } from './sceens';
 
 function App() {
   return (
@@ -7,6 +7,7 @@ function App() {
       <Main />
       <WorkExp />
       <Offers />
+      <Contact />
     </div>
   );
 }
