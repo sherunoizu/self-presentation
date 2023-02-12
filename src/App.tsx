@@ -1,9 +1,12 @@
-import { SideNav } from "./components";
+import { SideNav, Main, WorkExp, Offers } from './sceens';
 
 function App() {
   return (
-    <div className="App">
+    <div className='App'>
       <SideNav />
+      <Main />
+      <WorkExp />
+      <Offers />
     </div>
   );
 }
