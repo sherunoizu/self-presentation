@@ -35,6 +35,7 @@ export const SideNav = () => {
         <div className='fixed w-full h-screen bg-white/90 flex flex-col justify-center items-center z-20'>
           {_SECTIONS.map((section) => (
             <SideNavLinkItem
+              onClick={onNavClickHandler}
               href={section.href}
               sectionName={section.sectionName}
               IconComponent={section.IconComponent}

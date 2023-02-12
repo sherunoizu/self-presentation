@@ -1,6 +1,7 @@
 /// <reference types="vite/client" />
 
 interface NavLinkItemProps {
+  onClick?: () => void;
   href: string;
   sectionName?: string;
   IconComponent: IconType;

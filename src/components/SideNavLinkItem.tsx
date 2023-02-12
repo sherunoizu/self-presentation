@@ -1,11 +1,13 @@
 import React from 'react';
 
 export const SideNavLinkItem: React.FC<NavLinkItemProps> = ({
+  onClick,
   href = '#main',
   sectionName,
   IconComponent
 }) => (
   <a
+    onClick={onClick}
     href={href}
     className='
       w-[75%] flex justify-center items-center
